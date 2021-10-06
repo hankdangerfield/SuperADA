@@ -1,0 +1,145 @@
+
+body {
+    background-color: #000;
+    background: url(../images/test.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#site-wrapper {
+    padding: 25px 25px;
+    width: 100vw;
+}
+
+#sidebar {
+    text-align: center;
+}
+
+.title {
+    margin-top: -10px;
+    font-family: 'Electro Shackle';
+    color: #15f4ee;
+    font-size: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+.site-button {
+    display: inline-block;
+    padding: 10px 16px;
+    background: none;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    color: #15f4ee;
+    font-weight: 200;
+    border: 3px solid #15f4ee;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Electro Shackle', poppins, arial;
+}
+
+.site-button:hover {
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    transition: text-shadow .2s;
+    transition: box-shadow .2s;
+    text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;
+}
+
+#sidebar-overlay {
+    padding-top: 10px;
+    position: fixed;
+    width: 64px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.5);
+    text-align: center;
+}
+
+/*
+.deepSpaceNft {
+    
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    border: 3px solid #15f4ee;
+    border-radius: 5px;
+    height: 620px;
+    width: 1000px;
+    margin: 30px;
+    padding: 10px;
+    background: rgba(255, 255, 255, .2); 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+
+}
+
+.nftImage {
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 1);
+}
+
+.nftImage:hover {
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;
+}
+
+.sidebar {
+    position: fixed;
+    top: 10%;
+    border: 3px solid #15f4ee;
+    border-radius: 5px;
+    height: 620px;
+    width: 520px;
+    margin: 30px;
+    padding: 10px;
+    background: rgba(255, 255, 255, .2); 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+.nft1 {
+    position: absolute;
+    top: -20px;
+    left: -17px;
+    border: 3px solid #15f4ee;
+    border-radius: 5px;
+    height: 225px;
+    margin: 30px;
+    padding: 10px;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+.WalletButton {
+    position: fixed;
+    top: 8%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+
+.WalletButton:hover {
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;
+}
+
+.nftBtnContainer1 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.connectYourWallet {
+    position: absolute;
+    top: 10%;
+    right: 4%;
+} */

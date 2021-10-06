@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>King of the Moon</title>
+  <style>
+    @font-face {
+      font-family: 'Electro Shackle';
+      src: url('./assets/fonts/Electro Shackle.otf');
+    };
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.3.5/web3.min.js"
+    integrity="sha512-S/O+gH5szs/+/dUylm15Jp/JZJsIoWlpSVMwT6yAS4Rh7kazaRUxSzFBwnqE2/jBphcr7xovTQJaopiEZAzi+A=="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body>
+  <div id='site-wrapper' class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+      </div>
+    </div>
+    <div class='row'>
+      <section id="game-container" class="col-12 mx-auto">
+        <h3 class="title text-center">SuperADA City</h3>
+        <div id="placeholder" class="text-center">
+          <img src="./assets/images/image1.png">
+        </div>
+        <div id="unity-container" class="unity-desktop text-center hidden">
+          <canvas id="unity-canvas" class="mx-auto" width="960" height="600"></canvas>
+          <div id="unity-loading-bar">
+            <div id="unity-logo"></div>
+            <div id="unity-progress-bar-empty">
+              <div id="unity-progress-bar-full"></div>
+            </div>
+          </div>
+          <div id="unity-warning"> </div>
+          <div id="unity-footer">
+            <div id="unity-webgl-logo"></div>
+            <div id="unity-fullscreen-button"></div>
+            <div id="unity-build-title">SuperADA City</div>
+          </div>
+        </div>
+
+        <!--
+          <div id="gameContainer" style="width: %UNITY_WIDTH%px; height: %UNITY_HEIGHT%px; margin: auto" class="hidden"></div>-->
+      </section>
+
+      <section id="sidebar-overlay">
+        <a type="button" href='https://metamask.io/' target="_blank">
+          <img src='./assets/images/metamaskpng.png' />
+        </a>
+      </section>
+    </div>
+    <section class='row'>
+      <div class='col-12 text-center'>
+        <a class="site-button" href="https://t.me/Super_ADA" target="_blank" id="btnTelegram">TECH SUPPORT</a>
+        <a class="site-button" href="https://superadaofficial.com/" target="_blank" id="btnSite">WEBSITE</a>
+      </div>
+  </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+  <script src="runner.js"></script>
+</body>
+
+</html>
